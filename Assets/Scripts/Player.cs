@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public float jump;
     private Rigidbody2D rigid;
     private Player player;
+
     // Start is called before the first frame update
     void Start()
     {

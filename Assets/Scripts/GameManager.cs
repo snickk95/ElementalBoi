@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    int test = 7; // this can be removed 
     // Start is called before the first frame update
     void Start()
     {

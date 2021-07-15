@@ -146,7 +146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -101, y: -68}
+  m_AnchoredPosition: {x: -27.8, y: -27.8}
   m_SizeDelta: {x: 40.200012, y: 40.200012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14292811
@@ -285,7 +285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &669966533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,8 +342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: -393.6, y: -72.545}
+  m_AnchoredPosition: {x: -24.460022, y: -0.0002746582}
+  m_SizeDelta: {x: -314.68, y: -0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &669966536
 MonoBehaviour:
@@ -587,7 +587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -207, y: -68}
+  m_AnchoredPosition: {x: -143.4, y: -27.8}
   m_SizeDelta: {x: 40.200012, y: 40.200012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837093991
@@ -1148,7 +1148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -153, y: -68}
+  m_AnchoredPosition: {x: -83.6, y: -27.8}
   m_SizeDelta: {x: 40.200012, y: 40.200012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633387968
@@ -1421,7 +1421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -261, y: -68}
+  m_AnchoredPosition: {x: -206.1, y: -27.8}
   m_SizeDelta: {x: 40.200012, y: 40.200012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1895616186
@@ -1533,5 +1533,10 @@ PrefabInstance:
       propertyPath: PauseMenu
       value: 
       objectReference: {fileID: 669966532}
+    - target: {fileID: 1021444752630247627, guid: d86c3e9a8ebf8d54b8892ce131b218d1,
+        type: 3}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 669966536}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d86c3e9a8ebf8d54b8892ce131b218d1, type: 3}

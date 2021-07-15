@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-  
+    // create a public variable to refrence the pause panel
+    public PauseMenu pause;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +17,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        if(Input.GetKey("escape"))
+        {
+            //call the function to pause the game
+            pause.PauseGame();
+        }
     }
     
    

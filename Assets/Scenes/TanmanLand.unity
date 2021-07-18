@@ -310,9 +310,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1456455818}
   - component: {fileID: 1456455817}
-  - component: {fileID: 1456455820}
   - component: {fileID: 1456455819}
   - component: {fileID: 1456455821}
+  - component: {fileID: 1456455820}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -404,8 +404,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &1456455820
-BoxCollider2D:
+--- !u!68 &1456455820
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -418,18 +418,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
-    newSize: {x: 0.2, y: 0.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
   m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.1, y: 0}
+  - {x: 0.1, y: 0}
 --- !u!114 &1456455821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,8 +431,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1456455816}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b06b056cea15cd4cb03cd5f756e5e81, type: 3}
+  m_Script: {fileID: 11500000, guid: 56d90597a5abeb14085ffa3dd1a47cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2.5
-  jump: 20
+  accel: 3
+  speed: 6
+  jump: 4
+  isJumping: 0
+  jumpSpeed: 4
+  jumpDurationThreshold: 1
+  airAccel: 2

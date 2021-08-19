@@ -17,7 +17,7 @@ public class Enemies : MonoBehaviour
 
     void EnemeyMovement()
     {
-        transform.position = Vector2.MoveTowards(transform.position, positions[index], Time.deltaTime * speed);
+        transform.position = Vector3.MoveTowards(transform.position, positions[index], Time.deltaTime * speed);
 
         if (transform.position == positions[index])
         {
